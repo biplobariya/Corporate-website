@@ -5,12 +5,16 @@
 @import "../node_modules/bootstrap/scss/bootstrap";
 @import "./nav/navbar";
 @import "./footer/footer-style";
+@import "./hero/hero";
+@import "./feature/feature";
+@import "./carousel/carousel";
 
 // custom code here
 body {
-  background-color: #ddd;
+  background-color: #fff;
 }
 
 .extra-margin {
   margin-top: 80px;
 }
+
