@@ -11980,6 +11980,97 @@ footer .subscribe-group button {
   max-width: 100%;
 }
 
+.pricing-section {
+  padding: 80px 0;
+}
+.pricing-section .price-card {
+  background-color: #f5f5f5;
+  padding-bottom: 3rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.pricing-section .vertical-gap {
+  flex: 1;
+}
+.pricing-section .price-header {
+  background-color: #ddd;
+  padding: 5rem 3rem;
+  text-align: center;
+  color: #fff;
+}
+.pricing-section .personal {
+  background-color: #4e74ff;
+}
+.pricing-section .professional {
+  background-color: #3cbffa;
+}
+.pricing-section .business {
+  background-color: #1f2946;
+}
+.pricing-section .price-body {
+  margin: 3rem 2rem;
+  margin-bottom: 0;
+}
+.pricing-section .features {
+  list-style: none;
+}
+.pricing-section .features li {
+  position: relative;
+  margin-bottom: 20px;
+}
+.pricing-section .features li::before {
+  font-family: "Font Awesome 5 Free";
+  font-size: 1.5rem;
+  content: "\f058";
+  position: absolute;
+  left: -30px;
+  margin-top: -5px;
+  color: #8b62ff;
+}
+.pricing-section .price-footer {
+  margin: 0 2rem;
+  margin-bottom: 0;
+}
+.pricing-section .price-footer button {
+  padding: 0.5rem;
+  background-image: linear-gradient(90deg, #8b62ff 0, #3b1bff);
+  border: none;
+  outline: none;
+}
+
+.contact-section {
+  padding: 60px 0;
+}
+.contact-section img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  object-position: center;
+}
+.contact-section .contact-form {
+  margin-top: 15px;
+}
+.contact-section .form-control {
+  box-shadow: none;
+  border: 1px solid #ddd;
+  margin-bottom: 1rem;
+}
+.contact-section .form-control:focus,
+.contact-section .form-control:hover {
+  box-shadow: none;
+  border-color: #eee;
+}
+.contact-section textarea {
+  max-width: 100%;
+}
+.contact-section button {
+  padding: 0.5rem;
+  background-image: linear-gradient(90deg, #8b62ff 0, #3b1bff);
+  border: none;
+  outline: none;
+}
+
 body {
   background-color: #fff;
 }
